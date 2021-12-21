@@ -1,5 +1,6 @@
 # iiitk-dao
-Welcome to iiitk-dao
+Hi, Welcome to iiitk-dao
+
 ![alt text](https://dazedimg-dazedgroup.netdna-ssl.com/900/azure/dazed-prod/1300/6/1306114.jpg)
 
 
