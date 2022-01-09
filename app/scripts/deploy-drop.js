@@ -1,8 +1,9 @@
 import { ethers } from "ethers";
+import { ThirdwebSDK } from "@3rdweb/sdk";
 import sdk from "./initialize-sdk.js";
 import { readFileSync } from "fs";
 
-const app = sdk.getAppModule("0x78d7154A5ffa41240D1957ee39ceCA1B5080A966");
+const app = sdk.getAppModule("0x9b05632eDddE6DDA5804e44B3d630Ce27FE85A7A");
 
 (async () => {
   try {
@@ -12,7 +13,7 @@ const app = sdk.getAppModule("0x78d7154A5ffa41240D1957ee39ceCA1B5080A966");
       
       description: "A DAO for students of IIITK.",
       
-      image: readFileSync("scripts/assets/nft.jpeg"),
+      image: readFileSync("scripts/assets/nft.jpg"),
 
       primarySaleRecipientAddress: ethers.constants.AddressZero,
     });
